@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <!--<ImageView-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="132dp"-->
+            <!--android:layout_height="132dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawanavigation_menu_backgroundlash" />-->
+
+
+            <LinearLayout
+                android:id="@+id/infos_layout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <com.github.siyamed.shapeimageview.CircularImageView
+                        android:id="@+id/userimage"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginStart="5dp"
+                        android:src="@drawable/profile_placeholder"
+                        app:siBorderColor="#eeeeee"
+                        app:siBorderWidth="2dp" />
+
+                    <Button
+                        android:id="@+id/getImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical|center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/userbuttonstyle"
+                        android:padding="@dimen/spacing_small"
+                        android:text="@string/get_photos"
+                        android:textColor="@color/defaultWhiteColor" />
+
+                </LinearLayout>
+
+
+                <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+                    android:id="@+id/country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:hint="@string/signup_select_your_country"
+                    android:padding="5dp"
+                    android:visibility="gone"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+                <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                    android:visibility="gone"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/codeCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="N/A"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:visibility="invisible" />
+
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/mobile"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="7"
+                        android:enabled="false"
+                        android:hint="@string/signup_number"
+                        android:inputType="phone"
+                        android:textColor="@color/black"
+                        app:met_baseColor="@color/black"
+                        app:met_errorColor="@color/red"
+                        app:met_primaryColor="@color/colorPrimary"
+                        app:met_textColorHint="@color/grey_field" />
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/userbuttonstyle"
+                    android:text="Continue"
+                    android:textColor="@color/defaultWhiteColor"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/connect_layout"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Back"
+                    android:textColor="#000"
+                    android:visibility="gone" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey_field"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/insert_name_field"
+                    android:lines="1"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey_field"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/username"
+                    android:lines="1"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey_field"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+                <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                <!--android:id="@+id/job"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:drawablePadding="10dp"-->
+                <!--android:hint="@string/profession"-->
+                <!--android:maxLength="30"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textColor="@color/grey"-->
+                <!--android:textColorHint="@color/grey"-->
+                <!--app:met_baseColor="@color/grey"-->
+                <!--app:met_primaryColor="@color/colorPrimary"-->
+                <!--app:met_errorColor="@color/red" />-->
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:hint="@string/password_atleast_6_8_characters_long"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey_field"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/cpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:hint="@string/pconfirm"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey_field"
+                    android:visibility="gone"
+                    app:met_baseColor="@color/black"
+                    app:met_errorColor="@color/red"
+                    app:met_primaryColor="@color/colorPrimary"
+                    app:met_textColorHint="@color/grey_field" />
+
+                <Button
+                    android:id="@+id/save"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/userbuttonstyle"
+                    android:text="@string/save"
+                    android:textColor="@color/defaultWhiteColor" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

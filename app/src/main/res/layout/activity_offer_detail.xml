@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/content_offer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.nirhart.parallaxscroll.views.ParallaxScrollView
+                android:id="@+id/mScroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scrollbars="none"
+                tools:context="com.clubecerto.apps.app.activities.MainActivity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/defaultWhiteColor">
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:adjustViewBounds="true"
+                                android:minHeight="250dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/def_logo" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|end"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/nbrPictures"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorAccent"
+                                    android:clickable="true"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="12dp"
+                                    android:paddingEnd="15dp"
+                                    android:paddingBottom="12dp"
+                                    android:textColor="@color/defaultWhiteColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/distanceView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorAccent"
+                                    android:clickable="true"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="12dp"
+                                    android:paddingEnd="15dp"
+                                    android:paddingBottom="12dp"
+                                    android:text="offer for 1000dp "
+                                    android:textColor="@color/defaultWhiteColor"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:visibility="visible" />
+
+
+                            </LinearLayout>
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="?android:colorBackground"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPromo"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/priceView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/montserrat_medium"
+                                android:padding="15dp"
+                                android:textAlignment="center"
+                                android:textColor="@color/defaultWhiteColor"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                        <!-- CountdownView -->
+                        <cn.iwgang.countdownview.CountdownView
+
+                            android:id="@+id/cv_countdownViewTest1"
+                            android:layout_width="match_parent"
+
+
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/spacing_middle"
+                            android:layout_marginLeft="@dimen/spacing_middle"
+
+                            android:layout_marginTop="@dimen/spacing_middle"
+                            android:layout_marginEnd="@dimen/spacing_middle"
+                            android:layout_marginRight="@dimen/spacing_middle"
+                            android:background="@drawable/rounded_layout_item_small"
+                            android:backgroundTint="@color/colorCountdownView"
+                            android:padding="@dimen/spacing_large"
+                            android:visibility="gone"
+
+                            app:isHideTimeBackground="true"
+                            app:isShowDay="true"
+                            app:isShowHour="true"
+                            app:isShowMinute="true"
+                            app:isTimeTextBold="false"
+                            app:suffix=":"
+                            app:suffixGravity="center"
+                            app:suffixLRMargin="@dimen/spacing_xlarge"
+                            app:suffixTextColor="#000000"
+                            app:suffixTextSize="18sp"
+                            app:timeTextColor="@color/white"
+                            app:timeTextSize="20sp" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/spacing_middle"
+                            android:background="@color/colorWhite"
+                            android:orientation="vertical"
+                            android:padding="18dp">
+
+                            <TextView
+                                android:id="@+id/offer_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/detailOffer"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/defaultBlackColor"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/detail_offer"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:autoLink="web"
+                                android:textAlignment="viewStart"
+                                android:textSize="15dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/offer_date_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/spacing_middle"
+                            android:background="@color/colorWhite"
+                            android:orientation="vertical"
+                            android:padding="18dp"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/offer_up_to"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/storeBtnLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="@dimen/spacing_middle"
+                            android:background="@color/colorWhite"
+                            android:orientation="vertical"
+                            android:padding="18dp"
+                            android:textAlignment="viewStart">
+
+                            <TextView
+                                android:id="@+id/storeBtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/colorAccent"
+                                android:textSize="15dp" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ads"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <com.google.android.gms.ads.AdView
+                                android:id="@+id/adView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                ads:adSize="SMART_BANNER"
+                                ads:adUnitId="@string/banner_ad_unit_id" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </com.nirhart.parallaxscroll.views.ParallaxScrollView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_custom_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:elevation="@dimen/spacing_small"
+                android:paddingStart="@dimen/spacing_mlarge"
+                android:paddingLeft="@dimen/spacing_mlarge"
+                android:paddingTop="@dimen/spacing_middle"
+                android:paddingEnd="@dimen/spacing_mlarge"
+                android:paddingRight="@dimen/spacing_mlarge"
+                android:paddingBottom="@dimen/spacing_middle"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar_transparent" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/loading"
+        layout="@layout/loading_icon_manage" />
+
+    <include
+        android:id="@+id/error"
+        layout="@layout/include_layout_mange_error" />
+
+    <include
+        android:id="@+id/empty"
+        layout="@layout/include_layout_mange_empty_discussion" />
+
+
+</LinearLayout>

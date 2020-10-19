@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CategoryCustomView">
+        <attr name="ccDisplayTitle" format="boolean" />
+        <attr name="ccDisplayStoreNumber" format="boolean" />
+        <attr name="ccRect" format="boolean" />
+        <attr name="ccLoader" format="boolean" />
+        <attr name="ccTitle" format="string" />
+        <attr name="ccClickRedirection" format="boolean" />
+        <attr name="siLimit" format="integer|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OfferCustomView">
+        <attr name="ccDisplayHeader" format="boolean" />
+        <attr name="ocvLimit" format="integer" />
+        <attr name="offerItemHeight" format="integer" />
+        <attr name="offerItemWidth" format="integer" />
+        <attr name="ocvLoader" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TintableImageView">
+        <attr name="tint" format="reference|color" />
+    </declare-styleable>
+</resources>

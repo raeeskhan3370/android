@@ -1,0 +1,15 @@
+<RelativeLayout android:id="@+id/Layout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:id="@+id/ImageView01"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:src="@drawable/foto_11"
+        >
+    </ImageView>
+</RelativeLayout>

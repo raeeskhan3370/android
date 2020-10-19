@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="bottom">
+
+
+    <!--  <LinearLayout
+          android:id="@+id/ll_action_button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:showDividers="middle"
+          android:dividerPadding="16dp"
+          android:background="@color/bgActivity"
+          android:layout_alignParentBottom="true">
+
+
+
+          <ImageView
+              android:id="@+id/Location_ico"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:clickable="true"
+              android:text="Share"
+              android:layout_weight="1"
+              android:src="@drawable/ic_location_on_white_24dp"
+              android:gravity="start"
+              android:layout_gravity="center"
+              android:textColor="#ffffff" />
+
+
+          <ImageView
+              android:id="@+id/tv_login"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:text="Share"
+              android:clickable="true"
+              android:layout_weight="1"
+              android:src="@drawable/ic_send_white_24dp"
+              android:gravity="end"
+              android:layout_gravity="center"
+              android:textColor="#ffffff" />
+
+
+      </LinearLayout>-->
+</RelativeLayout>

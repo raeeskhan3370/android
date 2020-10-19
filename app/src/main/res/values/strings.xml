@@ -1,0 +1,308 @@
+<resources>
+    <!-- update this 3 keys and compile your code from here  -->
+    <!-- Set your  application ID-->
+
+    <!--General -->
+
+    <!--Set your google map key-->
+    <string name="map_api_key0" translatable="false">@string/map_api_key</string>
+
+
+    <string name="_DP_HOST_NAME" translatable="false">@string/DP_HOST_NAME</string>
+    <string name="_DP_STORE_MESSAGE" translatable="false">@string/DP_STORE_MESSAGE</string>
+    <string name="_DP_OFFER_MESSAGE" translatable="false">@string/DP_OFFER_MESSAGE</string>
+    <string name="_DP_EVENT_MESSAGE" translatable="false">@string/DP_EVENT_MESSAGE</string>
+
+    <string name="Home">Home</string>
+    <string name="ManageThings">Gestão da Área</string>
+    <string name="forgotpassword">&lt;u>Recuperar senha ?&lt;/u></string>
+    <string name="drawer_open">Aberto</string>
+    <string name="drawer_close">Fechado</string>
+    <string name="confirm">confirmar</string>
+    <string name="search">Pesquisar</string>
+    <string name="options_exit">Sair</string>
+    <string name="oups_no_item_found">ops!! sem registros</string>
+    <string name="about">Sobre nós </string>
+    <string name="Favoris">Favoritos</string>
+    <string name="FindCustomers">Membros Clube Certo ao redor</string>
+    <string name="About_us">Sobre nós</string>
+    <string name="Settings">Configurações</string>
+    <string name="MapStores">Mapa Clube Certo</string>
+    <string name="Login">Login</string>
+    <string name="Logout">Sair</string>
+    <string name="parameter">Parâmetros</string>
+    <string name="title_activity_map_marker_position">Mapa</string>
+    <string name="close">Fechar</string>
+    <string name="EventLike">Os meus eventos</string>
+    <string name="categories">Categorias</string>
+
+
+    <string name="my_stores">"Minhas Áreas</string>
+    <string name="my_events">"Meus Eventos</string>
+
+    <!--category--><![CDATA[
+    >
+    ]]>
+    <string name="Categories">Categorias</string>
+
+    <!--event-->
+    <string name="event_detail">Detalhes</string>
+    <string name="event_button_participate">Participe</string>
+    <string name="event_button_unparticipate">Cancelar</string>
+    <string name="event_participation_popup">Obrigado pela participação!!</string>
+    <string name="event_participation_canceled">Participação cancelada!</string>
+
+
+    <!--notification & messages-->
+    <string name="check_network">verifique a ligação</string>
+    <string name="network_error">Sem rede! tente novamente</string>
+    <string name="check_nework">verifique a sua ligação</string>
+    <string name="enable_network">Ligação estabalecida</string>
+    <string name="get_photos">Carregue a imagem</string>
+
+    <string name="editProfile">Editar perfil</string>
+
+    <!--store-->
+    <string name="store_create_btn">Adicionar Área</string>
+    <string name="store_to_far_map">Fora do raio de busca</string>
+    <string name="store_call_error">Erro no seu smartphone</string>
+    <string name="store_title_detail">Detalhes da Área</string>
+
+    <!--messages settings-->
+
+    <string name="settings_notifications">NOTIFICAÇÕES</string>
+    <string name="settings_app_infos">APLICAÇÕES</string>
+
+
+    <!-- OFFERS -->
+    <string name="settings_notification_offers">Ativar notificações para ofertas</string>
+    <string name="settings_notification_offers_title">Notificações para novas ofertas</string>
+
+
+    <!-- EVENTS -->
+    <string name="settings_notification_events">Ativar notificação para eventos no meu raio geográfico</string>
+    <string name="settings_notification_events_title">Notificações de novos eventos</string>
+
+    <!-- STORES -->
+    <string name="settings_notification_stores">Ativar notificações para novas lojas no meu raio geográfico</string>
+    <string name="settings_notification_stores_title">Notificações de novas lojas</string>
+
+
+    <!-- MESSENGER -->
+    <string name="settings_notification_messenger">Ativar notificações de mensagens novas </string>
+    <string name="settings_notification_messenger_title">Notificações para novas mensagens</string>
+
+    <!-- DISTANCE -->
+    <string name="settings_notification_distance_dis">%1$s KM</string>
+
+    <!-- APP_INFOS -->
+    <string name="settings_app_infos_title">Versão do APP Clube Certo</string>
+
+    <!--login & sign up-->
+    <string name="insert_name_field">Nome completo </string>
+
+    <string name="lessThan1km">Menos de 1 km</string>
+    <string name="MoreThan2km">+2 Km</string>
+    <string name="MoreThan5km">+5 Km</string>
+    <string name="MoreThan10km">+10 Km</string>
+
+    <string name="description">DESCRIÇÃO</string>
+
+    <string name="permission_disabled_notice">O APP foi elaborada com base no seu Raio Geografico, mantenha a sua localização do GPS ativa!</string>
+    <string name="signup_username">Nome</string>
+    <string name="signup_number">Celular</string>
+    <string name="signup_select_your_country">Selecione país</string>
+    <string name="login_username">Email ou nome</string>
+    <string name="password_atleast_6_8_characters_long">Senha</string>
+    <string name="save">Salvar</string>
+    <string name="find_new_neighbours">Encontrar novos membros</string>
+
+    <string name="FromTo"><![CDATA[De <u>%1$s</u> até <u>%2$s</u>]]></string>
+    <string name="youHaveDiscussions">Existem %1$d discussões %2$d mensagens</string>
+    <string name="youHaveMessage">Nova mensagem</string>
+    <string name="offerIn"> %1$s</string>
+    <string name="offers">Ofertas</string>
+    <string name="reviews">Avaliações (%1$s)</string>
+    <string name="noOffers">Sem ofertas</string>
+    <string name="detailOffer">Detalhes da Oferta</string>
+    <string name="noReviews">Sem avaliações</string>
+    <string name="nbrOffers">%1$d Ofertas</string>
+    <string name="addReview">Conheçe? Avalie!</string>
+    <string name="settings">Configurações</string>
+    <string name="pseudo">Nome</string>
+    <string name="error">Erro!</string>
+
+    <string name="selectRating">Classifique usando 1 a 5 estrelas</string>
+    <string name="pleaseWriteReview">Adicione um comentário</string>
+    <string name="writeReview">Descreva a avaliação</string>
+    <string name="thankYou">Obrigado pela participação!</string>
+
+    <string name="searchOn">Pesquisa</string>
+
+    <string name="searchOnStores">Pesquisa por Áreas</string>
+    <string name="searchOnOffers">Pesquisa por Ofertas</string>
+    <string name="searchOnEvents">Pesquisa por Eventos</string>
+    <string name="pconfirm">Confirmar senha</string>
+    <string name="email">Email</string>
+
+
+    <string name="people_around_me">Membros ao redor</string>
+    <string name="noDiscussion">Sem discssões abertas!</string>
+    <string name="promo">PROMO</string>
+
+
+    <string name="fileUploading">Carregar …</string>
+    <string name="fill_all_fields">Preencha todos os campos</string>
+
+    <string name="rateUs">Avalie o App</string>
+    <string name="rateIt">Avaliar</string>
+
+    <string name="you_ve_already_reviewd">Já avaliou a aplicação!</string>
+
+    <string name="shared_text">%1$s - Apenas em %2$s \n %3$s</string>
+    <string name="reload">Recarregar</string>
+    <string name="mail">email</string>
+    <string name="today">Hoje</string>
+    <string name="Send_message">Enviar mensagem</string>
+    <string name="create_an_account">Cadastre-se</string>
+    <string name="or">OU</string>
+    <string name="Sign_in">Efetue Login</string>
+    <string name="password_hint">Senha</string>
+    <string name="version">versão :</string>
+    <string name="phone">Celular</string>
+    <string name="featured">Destaque</string>
+    <string name="app_privacy">Politica privicidade</string>
+    <string name="app_term_of_uses">Condições gerais</string>
+
+
+    <string name="offer_start_at">Inicia-se %1$s</string>
+    <string name="offer_end_at">Expira %1$s</string>
+    <string name="offer_ended_at">Expirou %1$s</string>
+
+
+    <string name="nbr_stores_message">%1$s Áreas</string>
+
+
+    <string name="tab_stores">Áreas</string>
+    <string name="tab_offers">Ofertas</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_events">Eventos</string>
+    <string name="tab_inbox">Inbox</string>
+    <string name="NO_RESULT">SEM DADOS</string>
+    <string name="your_destination">Seu destino</string>
+    <string name="refresh">Atualizar</string>
+    <string name="no_users">Sem membros</string>
+    <string name="settings_notification_upcomingevent">Receber notificações de novos eventos</string>
+    <string name="settings_notification_upcomingevent_title">Próximos eventos</string>
+    <string name="sign_up">Entrar</string>
+
+
+    <string name="upComingEventMessage">Eventos próximos</string>
+    <string name="upComingEventsMessage">Eventos em breve</string>
+    <string name="upcomingTag">Brevemente</string>
+    <string name="myUpComingEvents">Eventos próximos</string>
+    <string name="chat_notification_title">Nova mensagem</string>
+    <string name="authentification_error_msg">Dados de login incorretos.</string>
+    <string name="oneOffer">%1$d ofertas</string>
+    <string name="gallery">Galeria</string>
+    <string name="noImages">Sem fotos</string>
+    <string name="enable_network_map_direction">Ative a rede</string>
+    <string name="enable_gps_map_direction">Ative PRIMEIRAMENTE seu GPS</string>
+    <string name="eventIn">Eventos</string>
+    <string name="test">TEST</string>
+    <string name="one">1</string>
+
+
+    <string name="skip">VOLTAR</string>
+    <string name="start">Iniciar</string>
+    <string name="intro_slide_1_title">No Transito</string>
+    <string name="intro_slide_1_description">Se conecte as promoções relâmpago do Clube Certo ao seu redor!</string>
+    <string name="intro_slide_2_title">Na loja</string>
+    <string name="intro_slide_2_description">Utilize seu Cartão Digital e receba descontos exclusivos!</string>
+    <string name="intro_slide_3_title">Na sua Casa</string>
+    <string name="intro_slide_3_description">Aproveite os maiores parceiros digitais e delivery na palma da sua mão!</string>
+    <string name="intro_slide_4_title">Avalie a sua melhor Área</string>
+    <string name="intro_slide_4_description"> Reveja os comentarios existentes antes de avaliar</string>
+    <string name="store_not_exist">Ops !! esta Área já não existe</string>
+    <string name="alert_gps_dialog">É necessário ativar a localização do seu aparelho para que o App funcione corretamente </string>
+    <string name="confirm_gps_relaunch">Tente novamente</string>
+    <string name="next">PROXIMO</string>
+    <string name="block">Bloqueado</string>
+    <string name="unblock">Desbloqueado</string>
+    <string name="less_than_1_km">Menos de 1 km</string>
+    <string name="noDiscussions">Sem Discussão</string>
+    <string name="stores_near_by">Lojas por perto</string>
+    <string name="searching_for_stores_bearby">Procurando lojas nas proximidades</string>
+    <string name="network_not_available">Não foi possivel carregar os dados do servidor</string>
+    <string name="retry">Tentar Novamente</string>
+    <string name="MapStoresMenu">Distancia</string>
+    <string name="review_title">Opiniões</string>
+    <string name="load_more">Carregar mais</string>
+    <string name="saved_messag">Salvo</string>
+    <string name="unsaved_message">Não salvo</string>
+    <string name="logout_alert">Sua conta está offline porque está bloqueada ou excluída \ Mais informações entre em contato com o administrador</string>
+    <string name="store_not_found">Não encontrado!</string>
+    <string name="notification">Notificações</string>
+    <string name="language">Linguagem</string>
+    <string name="english">Ingles</string>
+    <string name="french" translatable="false">Frances</string>
+    <string name="arabic">Arabico</string>
+    <string name="spanish" translatable="false">Espanhol</string>
+    <string name="portuguese" translatable="false">Portugues</string>
+    <string name="geo">Geo</string>
+    <string name="date">Data</string>
+    <string name="msg_dialog_privacy_policy"> Usando o app, você concorda em ficar vinculado pelo %1$s e %2$s .</string>
+    <string name="privacy_and_policy"><![CDATA[Politica & Privacidade]]></string>
+    <string name="decline">Recusar</string>
+    <string name="accept">Aceitar</string>
+    <string name="official_website">Site Oficial</string>
+    <string name="offer_for">Ofertado por %1$s</string>
+    <string name="offer_off">%1$s OFF</string>
+    <string name="load_business">arregar negocios</string>
+    <string name="no_message_inbox">Sem mensagens na sua caixa de entrada! Comece a conversar com seus amigos</string>
+    <string name="no_message_yet">Nenhuma mensagem, ainda</string>
+    <string name="select_category">Categoria: </string>
+    <string name="current_location">Localização Atual</string>
+    <string name="location">Localização:</string>
+    <string name="required_field">* Campo obrigatorio</string>
+    <string name="order_details">DETALHAS DO PEDIDO</string>
+    <string name="statusID">Pedido  # %1$d</string>
+    <string name="orders">Pedidos</string>
+    <string name="product_qty">Qtd : %1$d</string>
+    <string name="your_order_has_been_sent_successfully">Seu pedido foi enviado com sucesso!</string>
+    <string name="order_qty">Qtd : %1$d</string>
+    <string name="order_detail">Detalhe</string>
+    <string name="order_confirm">Confirmar</string>
+    <string name="username">Nome</string>
+    <string name="confirm_order">Confirmar pedido</string>
+    <string name="do_you_want_to_change_your_location">Deseja mudar sua localização?</string>
+    <string name="change_location">Mudar localização</string>
+    <string name="recent_offers">Oferta Recente</string>
+    <string name="show_more">mais</string>
+    <string name="searchOnMaps">Pesquisar no mapa</string>
+    <string name="complet_required_fileds">Certifique-se de preencher os campos obrigatorios primeiro!</string>
+    <string name="pay_now">Pagar Agora</string>
+    <string name="confirm_payment">Confirme o pagamento</string>
+    <string name="payment_done">Pagamento feito, feche a janela </string>
+    <string name="payment_error">Erro no pagamento</string>
+    <string name="error_try_later">Ocorreu um erro. Tente mais tarde!</string>
+
+    <string name="rate_dialog_title">Avaliar App</string>
+    <string name="rate_dialog_ok">Avalie-o agora</string>
+    <string name="rate_dialog_cancel">Lembrar depois</string>
+    <string name="rate_dialog_no">Não, Obrigado</string>
+    <string name="deal">Venda</string>
+    <string name="login_create_account">Entrar / Cadastrar</string>
+    <string name="checkout">Checkout</string>
+
+    <string name="dp_view_store_on">Ver loja no App</string>
+    <string name="dp_view_offer_on">Ver oferta no App</string>
+    <string name="dp_view_event_on">Ver evento no App</string>
+    <string name="clear_search">Limpar</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="TRUE">true</string>
+    <string name="login_cpf">Digite o CPF ou CNPJ</string>
+    <string name="agora">Agora escolha a sua empresa ou associacao</string>
+
+
+</resources>

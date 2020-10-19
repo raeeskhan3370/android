@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="horizontal">
+
+    <!--<TextView-->
+    <!--android:id="@+id/tabrow"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:height="45dp"-->
+    <!--android:background="?attr/selectableItemBackground"-->
+    <!--android:drawableLeft="@drawable/ic_home_white_18dp"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:gravity="center_vertical|center_horizontal"-->
+    <!--android:paddingEnd="15dp"-->
+    <!--android:paddingStart="15dp"-->
+    <!--android:singleLine="true"-->
+    <!--android:textColor="@color/TabTitleColor">-->
+
+    <!--</TextView>-->
+
+    <TextView
+        android:id="@+id/tabrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="45dp"
+        android:background="?attr/selectableItemBackground"
+        android:drawableStart="@drawable/ic_home_white_18dp"
+        android:drawableLeft="@drawable/ic_home_white_18dp"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/TabTitleColor">
+
+    </TextView>
+
+</LinearLayout>

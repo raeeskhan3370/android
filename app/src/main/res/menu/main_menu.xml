@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/rate_review"
+        android:icon="@drawable/ic_rate_review_white_24dp"
+        android:orderInCategory="200"
+        android:visible="false"
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/send_location"
+        android:icon="@drawable/ic_rate_review_white_24dp"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+
+</menu>

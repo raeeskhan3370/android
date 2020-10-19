@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503902506162",
+    "firebase_url": "https://clubecertoapp.firebaseio.com",
+    "project_id": "clubecertoapp",
+    "storage_bucket": "clubecertoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503902506162:android:ac47ad0eb86fbf857ecdab",
+        "android_client_info": {
+          "package_name": "com.clubecerto.apps.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503902506162-tm4147mn5obracqhsar4l2g33ml99odj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyBt-fU16xbVx5p6yeOXAB0kjqKf8fjlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503902506162-tm4147mn5obracqhsar4l2g33ml99odj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

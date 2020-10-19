@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.norbsoft.typefacehelper:library:0.9.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cceb72f39c04082de671d0e289ba20d/jetified-library-0.9.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cceb72f39c04082de671d0e289ba20d/jetified-library-0.9.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9cceb72f39c04082de671d0e289ba20d/jetified-library-0.9.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.norbsoft.typefacehelper/library/0.9.0/df4c1a81dc1c52f3e88e53e8b44eb3446a313b76/library-0.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.norbsoft.typefacehelper/library/0.9.0/9b8adc1b8c34f730a9a1bef0bb75fb08f6812cfd/library-0.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

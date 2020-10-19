@@ -1,0 +1,232 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/custom_bg"
+    app:cardCornerRadius="@dimen/rounded_radius"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/defaultWhiteColor">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:minHeight="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/def_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradient_bg_bottom_to_top_50" />
+
+
+            <ImageView
+                android:src="@drawable/ic_lnr_pushpin"
+                android:id="@+id/featured"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentStart="true"
+                android:layout_margin="@dimen/spacing_medium"
+                android:background="@drawable/rounded_layout_item"
+                android:backgroundTint="@color/colorFeatured"
+                android:gravity="center"
+                android:padding="@dimen/spacing_medium"
+                android:textColor="@color/defaultWhiteColor"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_gravity="end|top"
+                android:id="@+id/offer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:layout_marginRight="@dimen/spacing_medium"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:background="@drawable/rounded_layout_item"
+                android:backgroundTint="@color/colorPromo"
+                android:gravity="center"
+                android:text="-50%"
+                android:textColor="@color/defaultWhiteColor"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingBottom="@dimen/spacing_medium"
+                android:paddingTop="@dimen/spacing_medium"
+                android:paddingLeft="@dimen/spacing_middle"
+                android:paddingStart="@dimen/spacing_middle"
+                android:paddingRight="@dimen/spacing_middle"
+                android:paddingEnd="@dimen/spacing_middle" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:orientation="horizontal"
+                android:paddingStart="10dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="6dp">
+
+                <RatingBar
+                    android:id="@+id/ratingBar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:clickable="false"
+                    android:isIndicator="true"
+                    android:numStars="1"
+                    android:progressDrawable="@drawable/ratingbar"
+                    android:rating="4"
+                    android:stepSize="0.9" />
+
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:paddingTop="3dp"
+                    android:textColor="@color/defaultWhiteColor"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/offers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:clickable="true"
+                    android:paddingStart="15dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="6dp"
+                    android:text="@string/nbrOffers"
+                    android:textColor="@color/defaultWhiteColor"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:clickable="true"
+                    android:paddingStart="15dp"
+                    android:paddingTop="6dp"
+                    android:paddingEnd="15dp"
+                    android:paddingBottom="6dp"
+                    android:textColor="@color/defaultWhiteColor"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite">
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:singleLine="true"
+                            android:text="Lorem ipsum dolor "
+                            android:textColor="@color/defaultBlackColor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/grey" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

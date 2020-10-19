@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_icon"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:orderInCategory="100"
+        android:title=""
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/notification_action"
+        android:icon="@drawable/ic_notifications"
+        android:orderInCategory="200"
+        android:visible="false"
+        android:title=""
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/list_view_icon"
+        android:icon="@drawable/ic_list_view_grid"
+        android:orderInCategory="300"
+        android:title=""
+        android:visible="false"
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/messenger_action"
+        android:orderInCategory="400"
+        android:title=""
+        android:visible="true"
+        app:actionLayout="@layout/menu_action_item_badge"
+        app:iconTint="@color/colorAccent"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/language_icon"
+        android:title="@string/language"
+        android:visible="false"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/en_ln"
+                android:title="@string/english" />
+            <item
+                android:id="@+id/es_ln"
+                android:title="@string/spanish" />
+            <item
+                android:id="@+id/fr_ln"
+                android:title="@string/french" />
+            <item
+                android:id="@+id/ar_ln"
+                android:title="@string/arabic" />
+            <item
+                android:id="@+id/pt_ln"
+                android:title="@string/portuguese" />
+        </menu>
+    </item>
+
+
+</menu>

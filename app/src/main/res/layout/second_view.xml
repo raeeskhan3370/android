@@ -1,0 +1,49 @@
+<RelativeLayout android:id="@+id/Layout02"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+
+        android:scaleType="fitStart"
+        android:layout_width="match_parent"
+        android:id="@+id/ImageView02"
+        android:layout_height="match_parent"
+        android:src="@drawable/foto_33"
+        >
+
+
+    </ImageView>
+
+    <TextView
+
+android:layout_marginTop="25dp"
+        android:id="@+id/tv_"
+android:layout_centerVertical="true"
+
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginStart="40dp"
+
+        android:layout_marginTop="35dp"
+        android:id="@+id/tv_nome"
+       android:layout_below="@+id/tv_"
+        android:text="Muammad Raees"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginStart="40dp"
+
+       android:layout_below="@+id/tv_nome"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_cpf"
+        android:text="Muammad Raees"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
